@@ -1,0 +1,19 @@
+# PA Audio Analyzer V4.0 - シンプル版
+
+# 基本ライブラリ（必須）
+streamlit>=1.28.0
+numpy>=1.24.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# 楽器分離AI（オプション - なくても基本機能は使える）
+# 以下をインストールすると楽器分離機能が使えます
+# torch>=2.0.0
+# torchaudio>=2.0.0
+# demucs>=4.0.0
+
+# CPU版PyTorchのインストール方法:
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+# pip install demucs
